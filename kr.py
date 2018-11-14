@@ -57,3 +57,4 @@ history = model.fit(x_train, y_train,batch_size=128,epochs=10,verbose=1,validati
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+#after running the code,the accuracy is 0.993.
